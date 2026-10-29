@@ -10,7 +10,9 @@ Benötigt `curl` und `sh`. Das offizielle Installationsskript legt `arduino-cli`
 
 ```sh
 mkdir -p "$HOME/.local/bin" && curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | BINDIR="$HOME/.local/bin" sh
+```
 
+```sh
 sudo usermod -aG dialout "$USER"
 newgrp dialout
 ```
