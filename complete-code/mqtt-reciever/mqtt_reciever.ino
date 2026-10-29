@@ -9,8 +9,6 @@ const uint16_t MQTT_PORT = 1883;
 
 const char *MQTT_TOPIC = "alarm/test";
 
-// Bei vielen ESP32-C3 Super Mini Boards ist die Onboard-LED GPIO 8 und active-low.
-// Falls deine LED nicht reagiert, Boardvariante pruefen und diese Werte anpassen.
 constexpr uint8_t LED_PIN = 8;
 constexpr bool LED_ACTIVE_LOW = true;
 
