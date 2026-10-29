@@ -9,7 +9,6 @@ const uint16_t MQTT_PORT = 1883;
 
 const char *MQTT_TOPIC = "alarm/test";
 
-// ESP32-C3 Super Mini: BOOT-Taster liegt bei den ueblichen Boards an GPIO 9.
 constexpr uint8_t BUTTON_PIN = 9;
 constexpr unsigned long DEBOUNCE_MS = 50;
 
