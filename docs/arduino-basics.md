@@ -45,6 +45,9 @@ Verbinde das Board per USB. Mit der Arduino CLI kannst du zuerst den Anschluss e
 ```sh
 arduino-cli board list
 arduino-cli monitor -p <PORT> -c baudrate=115200
+
+arduino-cli compile --fqbn esp32:esp32:esp32c6:CDCOnBoot=cdc <sketch>
+arduino-cli upload -p <PORT> --fqbn esp32:esp32:esp32c6:CDCOnBoot=cdc <sketch>
 ```
 
 Ersetze `<PORT>` durch den angezeigten Anschluss, z. B. `/dev/ttyACM0` unter Linux oder `COM3` unter Windows. Den Monitor beendest du mit **Strg+C**.
