@@ -83,8 +83,8 @@ WiFiClient wifiClient;
 ```sh
 arduino-cli lib update-index
 arduino-cli lib install PubSubClient
-arduino-cli lib list
 arduino-cli lib install "PicoMQTT"
+arduino-cli lib list
 ```
 
 Prüfe in der Ausgabe von `lib list`, ob die Bibliothek installiert ist. Mehr zu ihrer Dokumentation und dem Speicherbedarf steht unter [Bibliotheken und Boardpakete verstehen](libraries.md).
